@@ -25,6 +25,7 @@ help:
 	@echo 'or generic ones from: https://github.com/jgm/pandoc-templates		  '
 
 pdf:
+	mkdir -p "$(OUTPUTDIR)" && \
 	pandoc "$(INPUTDIR)"/*.md \
 	-o "$(OUTPUTDIR)/thesis.pdf" \
 	-H "$(STYLEDIR)/preamble.tex" \
@@ -38,6 +39,7 @@ pdf:
 	--latex-engine=xelatex
 
 tex:
+	mkdir -p "$(OUTPUTDIR)" && \
 	pandoc "$(INPUTDIR)"/*.md \
 	-o "$(OUTPUTDIR)/thesis.tex" \
 	-H "$(STYLEDIR)/preamble.tex" \
@@ -50,6 +52,7 @@ tex:
 	--latex-engine=xelatex
 
 docx:
+	mkdir -p "$(OUTPUTDIR)" && \
 	pandoc "$(INPUTDIR)"/*.md \
 	-o "$(OUTPUTDIR)/thesis.docx" \
 	--bibliography="$(BIBFILE)" \
@@ -57,6 +60,7 @@ docx:
 	--toc
 
 html:
+	mkdir -p "$(OUTPUTDIR)" && \
 	pandoc "$(INPUTDIR)"/*.md \
 	-o "$(OUTPUTDIR)/thesis.html" \
 	--standalone \
