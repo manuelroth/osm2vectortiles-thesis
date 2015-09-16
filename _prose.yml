@@ -1,6 +1,5 @@
 prose:
- rooturl: 'source'
-  relativeLinks: 'http://prose.github.io/starter/links.jsonp'
+  rooturl: 'source'
   media: 'source/figures'
   ignore:
     - .gitignore
