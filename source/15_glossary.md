@@ -1,11 +1,9 @@
-# Appendix 1: Some extra stuff {.unnumbered}
+# Glossary {.unnumbered}
 
-<!-- 
-This could be a list of papers by the author for example 
--->
+The student and the HSR supervisor had weekly meetings to check and discuss the thesis
+progress.
 
-Add appendix 1 here. Vivamus hendrerit rhoncus interdum. Sed ullamcorper et augue at porta. Suspendisse facilisis imperdiet urna, eu pellentesque purus suscipit in. Integer dignissim mattis ex aliquam blandit. Curabitur lobortis quam varius turpis ultrices egestas.
+## MBTiles {.unnumbered}
 
-
-
-
+A SQLite based format for storing tile layers more efficiently than in a folder structure.
+Is a container format that usually contains raster images or vector tiles \footnote{\url{https://www.mapbox.com/help/define-mbtiles/}}.
