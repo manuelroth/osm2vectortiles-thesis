@@ -1,3 +1,6 @@
+# VIM
+*.sw*
+
 # PDF Output
 
 output/*
