@@ -1,0 +1,11 @@
+prose:
+ rooturl: 'source'
+  relativeLinks: 'http://prose.github.io/starter/links.jsonp'
+  media: 'source/figures'
+  ignore:
+    - .gitignore
+    - .travis.yml
+    - Gruntfile.js
+    - Makefile
+    - fabfile.py
+    - package.json
