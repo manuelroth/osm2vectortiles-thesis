@@ -4,6 +4,10 @@ This chapter will describe how one would style a custom version
 of OSM before and after our solution. This is necessary
 to show the added value of our project and help the understanding.
 
+## Diagram
+
+![Flow diagram of producing vector tiles from OSM planet files \label{ref_a_figure}](source/figures/osm2vectortiles.png)
+
 ## Goal
 
 The user wants to create a custom styled version of OpenStreetMap
@@ -34,3 +38,7 @@ User downloads a vector tile server image containing the OSM pbfs.
 He then connects via Mapbox tilejson urls.
 Then he exports the tmz file and puts it into the tileserver docker container.
 The user starts the tileserver docker container and has a viable tile hosting service.
+
+## How to do copying
+
+https://github.com/mapbox/mapbox-studio-classic/issues/1080
