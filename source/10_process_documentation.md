@@ -8,6 +8,10 @@ to show the added value of our project and help the understanding.
 
 ![Flow diagram of producing vector tiles from OSM planet files \label{ref_a_figure}](source/figures/osm2vectortiles.png)
 
+![Flow diagram of serving vector tiles to Mapbox Studio \label{ref_a_figure}](source/figures/vectortiles-server.png)
+
+![Flow diagram of serving raster tiles to a web client \label{ref_a_figure}](source/figures/rastertiles-server.png)
+
 ## Goal
 
 The user wants to create a custom styled version of OpenStreetMap
