@@ -69,7 +69,9 @@ Git history should be kept clean and therefore local branches should be squashed
 
 To avoid unnecessary merge messages one should always use the `--rebase` parameter.
 
-## Feature Branch Workflow\footnote{\url{https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow/}}
+## Workflow
+
+We use the Feature Branch Workflow\footnote{\url{https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow/}}.
 
 Every project member has a local repository with a copy of the remote repository (GitHub).
 For each feature ticket in GitHub a separate branch will be created. Once a ticket
