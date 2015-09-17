@@ -10,6 +10,12 @@ software but not necessarily of it's inner technical workings.
 
 ## Actors and Stakeholders
 
+## Use Cases
+
+NOTE: I actually found use cases to be not so useful in SE2 project. But somehow this project
+is not as "imaginable" as a web application. Perhaps short uses cases are still a good idea.
+
+But perhaps this should be done more in the form of user stories (a bit more informal).
 
 ## Non Functional Requirements
 
