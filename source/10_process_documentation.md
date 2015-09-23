@@ -6,6 +6,8 @@ to show the added value of our project and help the understanding.
 
 ## Diagram
 
+
+
 ![Flow diagram of producing vector tiles from OSM planet files \label{ref_a_figure}](source/figures/osm2vectortiles.png)
 
 ![Flow diagram of serving vector tiles to Mapbox Studio \label{ref_a_figure}](source/figures/vectortiles-server.png)
