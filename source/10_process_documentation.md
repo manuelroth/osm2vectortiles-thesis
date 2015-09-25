@@ -9,11 +9,15 @@ to show the added value of our project and help the understanding.
 ### First Step: Getting OSM data
 
 There are many different sources available to get OSM data from. Most of the time Geofabrik\footnote{\url{http://download.geofabrik.de/}} was referenced for getting single countries, continents or even the whole planet. But many times people only need a single city or region, because of this demand Mapzen\footnote{\url{https://mapzen.com/data/metro-extracts/}} provides OSM data for many cities and regions around the globe.
-The OSM data is missing something very important: the administrative boundaries. This needs to be downloaded separatly due to the fact, that somebody could manipulate the boundary of a region. As a result of this fact administrative boundaries get checked by the OSM community and released separatly.
+
+The OSM data is missing something very important: the administrative boundaries. This needs to be downloaded separatly due to the fact, that somebody could manipulate the boundary of a region. As a result of this administrative boundaries get checked by the OSM community and released separatly.
+
 The data is available in the PBF and OSM XML format. If available the PBF(Protocolbuffer Binary Format)\footnote{\url{http://wiki.openstreetmap.org/wiki/PBF_Format}} version should be choosen, as it is 30% smaller and 5-6 times faster to read and write than the bzipped OSM XML version.
 
 ### Second Step: Importing OSM data into Postgis
 
+As with the data sources there are many possiblities to import and store OSM data. The database type and importing schema should be choosen based on the primary use case. 
+As the goal of this workflow is to render vector tiles, our primary use case is rendering. The OSM community recommends\footnote{\url{http://wiki.openstreetmap.org/wiki/Databases_and_data_access_APIs}} PostgreSQL with the Postgis extension and imposm or osm2pgsql as schema.
 
 
 ![Flow diagram of producing vector tiles from OSM planet files \label{ref_a_figure}](source/figures/osm2vectortiles.png)
