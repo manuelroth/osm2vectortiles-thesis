@@ -22,7 +22,7 @@ Since the goal of this workflow is to render vector tiles, our primary use case 
 #### imposm importer
 
 Imposm is an import tool for osm data, it is not a schema. But it defines a default schema\footnote{\url{http://imposm.org/docs/imposm/latest/database_schema.html}}, which could possibly be changed by provinding a custom mapping file. An advantage of the default schema is that it groups data thematically into tables. Which results in smaller tables and simpler queries.
-Imposm 3 supports updating the database from OSM diff files\footnote{\url{http://imposm.org/docs/imposm3/latest/tutorial.html#diff}}
+Imposm 3 supports updating the database from OSM diff files\footnote{\url{http://imposm.org/docs/imposm3/latest/tutorial.html\#diff}}
 
 #### osm2pgsql importer
 
@@ -33,7 +33,7 @@ For our use case it is important, that the import is efficent and that the impor
 
 ### Third step: Mapbox studio source project
 
-A Mapbox studio source project is divided into the following folder structure\footnote{\url{https://www.mapbox.com/guides/source-manual/#source-project}}:
+A Mapbox studio source project is divided into the following folder structure\footnote{\url{https://www.mapbox.com/guides/source-manual/\#source-project}}:
 ```
 source-project.tm2source/
 	data.yml
