@@ -31,7 +31,7 @@ Osm2pgsql supports updating of the database, if the values have been stored as h
 
 For our use case it is important, that the import is efficent and that the import tool supports updating based on OSM diff files. Imposm 3 is faster than osm2pgsql and supports updatability. So we decided to take imposm for importing.
 
-### Third step: Mapnik xml file and Mapbox studio source project
+### Third step: Mapbox studio source project
 
 A Mapbox studio source project is divided into the following folder structure\footnote{\url{https://www.mapbox.com/guides/source-manual/#source-project}}:
 ```
@@ -41,9 +41,17 @@ source-project.tm2source/
     .thumb.png
 ```
 The data file defines all feature sets(layers) like landuse, waterway, road etc. The definition contains metadata like id, datasource(db, host, query, srid, extent), description, fields and properties. Mapbox Studio needs the yml version and mapnik the xml version of this file. 
-.thumb.png is a thumbnail image that gets displayed in the projects list. 
+.thumb.png is a thumbnail image that gets displayed in the projects list.
 
+### Fourth step: Generating vector tiles
 
+ToDo: comparing Geopackage with MBTiles
+
+To generate the vector tiles we use mapnik. Mapbox provides a very handy tool to generate vector tiles.
+```
+tilelive-copy --bounds=-180,-85,180,85 bridge:///home/mapbox/tmp/project.tm2source/data.xml mbtiles:///tmp/project.mbtiles
+```
+tilelive-copy provides the Mapnik XML file and the extent to mapnik which then generates the vector tiles. Tilelive-copy outputs these vector tiles in the mbtiles container.
 
 ![Flow diagram of producing vector tiles from OSM planet files \label{ref_a_figure}](source/figures/osm2vectortiles.png)
 
