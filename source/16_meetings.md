@@ -9,7 +9,6 @@
 - Lukas Martinelli
 - Manuel Roth
 
-
 **Talking points**
 
 - Get to know each other
@@ -63,7 +62,6 @@
 
 - Went through OSM Workflow ( OSM Source -> Import OSM Data -> Postgis -> Source Project -> Export mbtiles -> Serving mbtiles)
 
-
 **Difficulties**
 
 - It was not clear, if we could take an existing source project or if we had to make our own.
@@ -91,7 +89,6 @@
 **Done**
 
 - Reached alpha milestone(first version of components)
-
 
 **Difficulties**
 
@@ -124,24 +121,33 @@
 **Participants**
 
 - Stefan Keller
-- Lukas Martinelli
 - Manuel Roth
 
 **Done**
 
-- Documented osm worklow
+- Documented OSM worklow
 - Meeting with Petr
-
+- OSM Planet file imported
+- Passed alpha milestone
 
 **Difficulties**
 
-- OSX postgres image mounting problem
+- OSX postgres volume mounting problem
 
 **Plan**
 
+- Compare Wikimedia OSM stack with current stack (performance)
+- Decision of which rendering and tile serving stack should be choosen (based on performance tests with each stack)
+
+**Questions and Answers**
+
+- How many hours does each of us has to invest into the thesis?
+*Every team member has to invest at least 240h into the thesis (8 ECTS * 30h)*
+
+- On which server can we generate the mbtiles and how up-to-date should they be? (weekly updates)
+*You can use the IFS server for the mbtiles generation. If there are problems with the server, please contact Mirko Stocker. There are no special requirements for how current the mbtiles have to be*
 
 **Talking points**
 
-
-**Protocol**
-
+- Mr. Keller creates the project proposal and sends it for review back to us. On next weeks meeting we are going to sign the project proposal.
+- Mr. Keller's contact person at wikimedia maps: Tim alias Kolossos (tim@alder-digital.de)
