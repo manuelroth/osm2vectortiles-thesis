@@ -14,7 +14,7 @@ and add the centred logo
         \vspace*{2.5cm}
         
         \huge
-        OpenStreetMap Hotspots and Trends
+        OpenStreetMap Easy Custom Styling
         
         \vspace{1.5cm}
         

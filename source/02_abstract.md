@@ -5,5 +5,3 @@ it is very difficult to do so. With the new emerging technology of vector tiles 
 to allow anyone to create their custom OSM maps without downloading the entire database
 and managing complex infrastructure. The task of this project is to make this as easy
 as possible.
-
-\newpage{}

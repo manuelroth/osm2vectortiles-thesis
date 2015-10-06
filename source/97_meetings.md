@@ -1,6 +1,6 @@
-# Meeting Protocol {.unnumbered}
+## Meeting Protocol {.unnumbered}
 
-## 7th September 2015 {.unnumbered}
+### 7th September 2015 {.unnumbered}
 
 **Participants**
 
@@ -16,7 +16,7 @@
 - Architecture of Docker containers
 - Definition of tasks and milestones
 
-## 16th September 2015 {.unnumbered}
+### 16th September 2015 {.unnumbered}
 
 **Participants**
 
@@ -151,3 +151,5 @@
 
 - Mr. Keller creates the project proposal and sends it for review back to us. On next weeks meeting we are going to sign the project proposal.
 - Mr. Keller's contact person at wikimedia maps: Tim alias Kolossos (tim@alder-digital.de)
+
+\newpage{}

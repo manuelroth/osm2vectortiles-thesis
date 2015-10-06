@@ -1,37 +1,6 @@
-# Tooling
+## Guidelines
 
-## Project Management
-
-Managing tickets, milestones and progress all happens on the public GitHub repository.
-
-There are two GitHub repositories:
-
-- **osm2vectortile** contains the project
-- **osm2vectortile-thesis** contains the thesis
-
-## Development Environment
-
-Development happens independant.
-
-## Version Control
-
-Git
-
-## Continuous Integration
-
-TBD
-
-# Quality Measures
-
-## Documentation
-
-## Project Management
-
-
-
-# Guidelines
-
-## Releases
+### Releases
 
 We use semantic versioning \footnote{\url{http://semver.org/}}.
 At the end of each iteration a new release will be created. We start
@@ -43,10 +12,10 @@ at version `0.1.0`. The version number consists of a major, minor and patch vers
 
 **Patch: **Bugfixes
 
-## Git
+### Git
 
 
-### Commit Messages
+#### Commit Messages
 
 We use the seven rules of great git commit messages\footnote{\url{http://chris.beams.io/posts/git-commit/}}.
 
@@ -59,17 +28,17 @@ We use the seven rules of great git commit messages\footnote{\url{http://chris.b
 - Wrap the body at 72 characters
 - Use the body to explain what and why vs. how
 
-### History
+#### History
 
-#### Rewriting
+##### Rewriting
 
 Git history should be kept clean and therefore local branches should be squashed meaningfully.
 
-#### Pulling
+##### Pulling
 
 To avoid unnecessary merge messages one should always use the `--rebase` parameter.
 
-## Workflow
+### Workflow
 
 We use the Feature Branch Workflow\footnote{\url{https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow/}}.
 
@@ -83,15 +52,15 @@ The reviewer will add his comments to the pull requst comment section. As soon
 as all issues have been resolved and continuous integrations runs successfully
 the branch will be merged into master.
 
-## Coding Standards
+### Coding Standards
 
-## Testing
+### Testing
 
-### Unit Tests
+#### Unit Tests
 
 At the moment there is no need for unit tests.
 
-### Integration Tests
+#### Integration Tests
 
 To guarantee our solution works we will create a few completly integrated
 integration tests that cover our core use cases.
